@@ -1,0 +1,21 @@
+.folder-container {
+    background-color: none;
+    width: 100%;
+    border-radius: 4px;
+
+    &__text {
+        font-size: 1rem;
+    }
+
+    &:hover {
+        background-color: rgb(207, 207, 207);
+    }
+
+
+    &--active {
+        background-color: rgba(131, 193, 231, 0.736);
+        width: 100%;
+        border-radius: 4px;
+        font-weight: 700;
+    }
+}

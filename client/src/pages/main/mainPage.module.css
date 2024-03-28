@@ -1,0 +1,14 @@
+.main-headers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1%;
+}
+.main-headers-container__secondary-header {
+  max-width: 450px;
+  font-weight: 400;
+}
+.main-headers-container__secondary-header--bold {
+  font-weight: 700;
+}/*# sourceMappingURL=mainPage.module.css.map */

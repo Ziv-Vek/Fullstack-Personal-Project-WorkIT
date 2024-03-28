@@ -1,0 +1,37 @@
+.cell-container {
+    width: 120px;
+    height: 32px;
+}
+
+.cell {
+    display: inline-block;
+    //margin-right: 5px;
+    border: 1px solid;
+    overflow-wrap: break-word;
+    width: 120px;
+    height: 32px;
+
+    &__name {
+        display: inline-block;
+        padding: 2px 3px;
+        overflow-wrap: break-word;
+        height: 32px;
+
+        &:hover {
+            //cursor: text;
+            border: 1px rgb(136, 136, 136) solid;
+            border-radius: 3px;
+        }
+    }
+
+}
+
+.dragged {
+    background-color: rgba(196, 196, 201, 0.314);
+    opacity: .5;
+}
+
+.drag-over {
+    border-right: 2px blue solid;
+    background-color: rebeccapurple;
+}

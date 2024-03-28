@@ -1,0 +1,39 @@
+.headers-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 1%;
+}
+
+.main-header {
+    margin-bottom: 14px;
+
+    &__one {
+        background: -webkit-linear-gradient(45deg, #6334b5, #174ab7);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.secondary-container {
+    margin-bottom: 20px;
+}
+
+.secondary-header {
+    max-width: 450px;
+    font-weight: 400;
+    //margin-bottom: 20px;
+
+    &--bold {
+        font-weight: 700;
+    }
+}
+
+.secondary-text {
+    font-weight: 400;
+}
+
+.declaration {
+    margin: 20px;
+}

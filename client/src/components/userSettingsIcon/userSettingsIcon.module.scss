@@ -1,0 +1,42 @@
+.btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #2579d8;
+    //background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    color: white;
+    //outline: none;
+    //overflow: hidden;
+    //    padding: 0;
+    padding-block: 0;
+    padding-bottom: 3px;
+
+
+    /* &__text {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 2;
+        padding: 0;
+        margin: 0;
+        align-self: center;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } */
+
+    &:active {
+        background-color: #2050b7;
+    }
+}

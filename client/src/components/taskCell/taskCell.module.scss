@@ -1,0 +1,26 @@
+.cell {
+    display: inline-block;
+    //margin-right: 5px;
+    border: 1px rgb(167, 167, 167) solid;
+    //border-left: 1px rgb(167, 167, 167) solid;
+    //border-bottom: 1px rgb(167, 167, 167) solid;
+    //overflow-wrap: break-word;
+    width: 120px;
+    overflow: hidden;
+    height: 32px;
+}
+
+.cellValue {
+    display: inline-block;
+    padding: 2px 3px;
+    overflow: hidden;
+    height: 32px;
+    width: 100%;
+    height: 100%;
+
+    &:hover {
+        //cursor: text;
+        border: 1px rgb(136, 136, 136) solid;
+        border-radius: 3px;
+    }
+}

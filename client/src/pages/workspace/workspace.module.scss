@@ -1,0 +1,36 @@
+.panels-container {
+    display: flex;
+    background-color: rgb(215, 237, 247);
+    padding-top: 15px;
+
+    &__left {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+        background-color: white;
+        border-radius: 0 15px 15px 0;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 5px;
+        background-color: white;
+        border-radius: 15px 0 0 15px;
+        margin: 0 0 0 15px;
+
+    }
+
+    hr {
+        background-color: rgb(82, 75, 75);
+        //width: 3px;
+        height: 3px;
+
+        width: 70%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

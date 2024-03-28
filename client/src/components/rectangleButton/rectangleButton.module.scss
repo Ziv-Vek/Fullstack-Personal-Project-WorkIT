@@ -1,0 +1,7 @@
+@use "../../styles/_mixin.scss" as mixin;
+@import "../../styles/variables";
+
+.btn {
+    @include mixin.button-29;
+    //color: $color;
+}
